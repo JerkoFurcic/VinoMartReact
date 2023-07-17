@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: #0c1d32;
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    position: relative;
+}
+
+.title {
+    font-size: 110px;
+    line-height: 111px;
+    color: transparent;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #9e6736;
+    grid-column: 6;
+}
+
+.tekst {
+    color: black;
+    display: inline;
+}
+
+.section {
+    background: url(https://vinumart.hr/hr/assets/img/pattern-gray.jpg);
+    width: 1800px;
+    padding: 70px;
+    margin: 50px;
+}
+
+.line {
+    display: inline-block;
+    width: 100px;
+}
+
+.line:hover {
+    transform: translateZ(0) scaleX(1);
+}
+
+/* swiper slider css */
+*.swiper-button-prev {
+    visibility: hidden;
+}
+
+/* *.swiper-button-next {
+
+} */
+
+.swiper-wrapper {
+    padding-left: 120px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper {
+    width: 100%;
+    height: 300px;
+    margin: 20px auto;
+}
+
+/* .append-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.append-buttons button {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #007aff;
+    color: #007aff;
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin: 0 10px;
+    font-size: 13px;
+} */
