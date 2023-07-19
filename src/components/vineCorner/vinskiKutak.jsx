@@ -14,35 +14,6 @@ import { Navigation } from 'swiper/modules';
 export default function App() {
   const [swiperRef, setSwiperRef] = useState(null);
 
-  // let appendNumber = 4;
-  // let prependNumber = 1;
-
-  // const prepend2 = () => {
-  //   swiperRef.prependSlide([
-  //     '<div class="swiper-slide">Slide ' + --prependNumber + '</div>',
-  //     '<div class="swiper-slide">Slide ' + --prependNumber + '</div>',
-  //   ]);
-  // };
-
-  // const prepend = () => {
-  //   swiperRef.prependSlide(
-  //     '<div class="swiper-slide">Slide ' + --prependNumber + '</div>'
-  //   );
-  // };
-
-  // const append = () => {
-  //   swiperRef.appendSlide(
-  //     '<div class="swiper-slide">Slide ' + ++appendNumber + '</div>'
-  //   );
-  // };
-
-  // const append2 = () => {
-  //   swiperRef.appendSlide([
-  //     '<div class="swiper-slide">Slide ' + ++appendNumber + '</div>',
-  //     '<div class="swiper-slide">Slide ' + ++appendNumber + '</div>',
-  //   ]);
-  // };
-
   return (
     <div className="body">
       <div className="section">
@@ -54,7 +25,7 @@ export default function App() {
         <hr className="line"></hr>
         <a href="#" className="tekst">Saznajte više</a>
         <Swiper
-          onSwiper={setSwiperRef}
+          onSwiper={setSwiperRef}// https://swiperjs.com/react#installation CTRL+F Controller za 2 pogledat
           slidesPerView={3}
           centeredSlides={false}
           spaceBetween={0}
@@ -65,7 +36,7 @@ export default function App() {
           <SwiperSlide><img src="https://vinumart.hr/hr/assets/img/kutak/italesse.jpg" alt="" /></SwiperSlide>
           <SwiperSlide><img src="https://vinumart.hr/hr/assets/img/kutak/vacuin.webp" alt="" /></SwiperSlide>
           <SwiperSlide><img src="https://vinumart.hr/hr/assets/img/kutak/italesse.jpg" alt="" /></SwiperSlide>
-          <SwiperSlide><img src="https://vinumart.hr/hr/assets/img/kutak/zafferano.jpg" alt="" /></SwiperSlide>
+          <SwiperSlide><img src="https://vinumart.hr/hr/assets/img/kutak/zafferano.jpg" alt="" /></SwiperSlide>  
         </Swiper>
 
         {/* <p className="append-buttons">

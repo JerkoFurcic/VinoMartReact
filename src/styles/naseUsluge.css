@@ -1,0 +1,47 @@
+.swiper-wrapper {
+  padding-left: 120px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .swiper-slide img::before {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease-in;
+  transform: translateZ(0) scale(1, 1);
+  transform-style: preserve-3d;
+} */
+
+.swiper {
+  width: 100%;
+  height: 600px;
+  margin: 20px auto;
+}
+
+/* .append-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.append-buttons button {
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #007aff;
+  color: #007aff;
+  text-decoration: none;
+  padding: 4px 10px;
+  border-radius: 4px;
+  margin: 0 10px;
+  font-size: 13px;
+} */

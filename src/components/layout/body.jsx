@@ -1,6 +1,7 @@
 import React from "react";
 import "../../styles/body.css";
 import VinskiKutak from "../vineCorner/vinskiKutak";
+import NaseUsluge from '../vineCorner/naseUsluge';
 
 const Body = () => {
   return (
@@ -25,8 +26,9 @@ const Body = () => {
           <p>Unutar 24 sata vršimo dostavu na području cijele Hrvatske.</p>
         </div>
         <h2 className="title-nu">Naše usluge</h2>
-        
+        <NaseUsluge />
       </div>
+      
         <VinskiKutak />
         <div className="grid section2">
           <img src="https://vinumart.hr/hr/assets/img/champagne.jpg"alt="slika" className="dog"></img>

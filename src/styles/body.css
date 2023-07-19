@@ -22,7 +22,6 @@ body {
 }
 .bd {
     background-color: #0c1d32;
-    padding: 400px;
 }
 .title-broj {
     font-size: 110px;
@@ -112,3 +111,8 @@ hr {
     position: relative;
     align-items: center !important;
 }
+.swiperSlider1 {
+    grid-column: span 12;
+    width: auto;
+}
+
